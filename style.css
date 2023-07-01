@@ -1,0 +1,21 @@
+.main {
+  margin-left: 60px;
+}
+
+.an-part__topic {
+  color: #17372E;
+  font-size: 73px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+}
+.an-part__text {
+  color: #17372E;
+  font-size: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 795px;
+}/*# sourceMappingURL=style.css.map */
