@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
 .main {
     margin-left: 60px;
 }
@@ -5,18 +13,97 @@
     &__topic{
     color: #17372E;
 font-size: 73px;
-font-family: Roboto;
+font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
 line-height: 80px;
+margin-top: 76px;
     }
     &__text {
         color: #17372E;
 font-size: 20px;
-font-family: Roboto;
+font-family:"Roboto";
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
 max-width: 795px;
+margin-top: 52px;
+    }
+    &__cards {
+        margin-top: 110px;
+    }
+    &__cards-1 {
+        border: 1px solid #000;
+        padding-left: 24px;
+        max-width: 520px;
+        &__top {
+            display: flex;
+            border-bottom: 2px solid #17372E;
+            width: 472px;
+            padding-bottom: 22px;
+        }
+        &__text {
+            color: #17372E;
+font-size: 28px;
+font-family:"Roboto";
+font-style: normal;
+font-weight: 400;
+line-height: 38.4px;
+margin-left: 8px;
+margin-top: 18px;
+        }
+        &__star {
+            margin-top: 30px;
+        }
+        &__main {
+            display: flex;
+
+            &__text {
+                margin-top: 22px;
+                width: 235px;
+                margin-left: 89px;
+            }
+
+            &__text-1 {
+                color: #17372E;
+font-size: 16px;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+padding-bottom: 5px;
+            }
+        }
+        &__free {
+            color: #17372E;
+font-size: 72px;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+line-height: 88px;
+        }
+        &__button {
+            display: flex;
+            border-radius: 7px;
+background: #F94E41;
+width: 472px;
+height: 54px;
+margin-top: 113px;
+align-items: center;
+justify-content: center;
+margin-bottom: 23px;
+        }
+        &__button-text {
+            color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 1.28px;
+text-transform: uppercase;
+padding-left: 8px;
+        }
     }
 }
