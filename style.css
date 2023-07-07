@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 header {
   background-color: #FFF8EC;
   color: #17372E;
@@ -43,35 +42,54 @@ header {
 .itemy:hover {
    color: #4a4a4a;
 }
-
-.main {
-  color: #17372E;
-  font-family: Roboto;
-  
-}
 .cont-1y {
-  margin: 100px auto;
+  margin-top: 101px;
+  justify-content: space-between;
+  max-width: 1200px;
   display: flex;
-  width: 1200px;
 }
 .cont-1y__text {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
  /*  border: 1px solid #000; */
-  width: 600px;
-  height: 800px;
+  /* width: 600px;
+  height: 800px; */
+  max-width: 427px;
+  border-bottom: 2px solid #17372E;
+  padding-bottom: 34px;
 }
 .big-text {
-  font-size: 100px;
   line-height: 100px;
+  color: #17372E;
+font-family: "Roboto";
+font-size: 88px;
+font-style: normal;
+font-weight: 400;
+line-height: 88px;
+max-width: 461px;
 }
 
 .midle-text {
-  font-size: 40px;
+  color: #17372E;
+font-family: "Roboto";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 33.6px;
+letter-spacing: 0.48px;
+margin-top: 33px;
+max-width: 351px;
 }
 .small-text {
-  font-size: 20px;
+  max-width: 396px;
+  margin-top: 56px;
+  color: #17372E;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
 }
 .cont-1y__img {
   display: flex;
@@ -92,8 +110,6 @@ header {
   border-bottom: 2px solid #000;
 }
 
-=======
->>>>>>> f37efabbee109347ceee2c4e077353fed9d5d815
 .main {
   margin-left: 60px;
 }
@@ -180,7 +196,7 @@ header {
   background: #F94E41;
   width: 472px;
   height: 54px;
-  margin-top: 163px;
+  margin-top: 227px;
   align-items: center;
   justify-content: center;
   margin-bottom: 23px;
