@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
--header {
+.header {
   background-color: #FFF8EC;
   color: #17372E;
 }
