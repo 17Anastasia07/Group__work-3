@@ -162,6 +162,21 @@ max-width: 351px;
   margin-left: 60px;
 }
 
+@media (max-width: 960px) {
+  .cont-1y:nth-child(1) {
+    flex-direction: column-reverse;
+  }
+  .cont-1y:nth-child(2){
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__menuy {
+    display: nonew;
+  }
+}
+
 .an-part__topic {
   color: #17372E;
   font-size: 73px;
