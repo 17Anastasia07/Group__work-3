@@ -675,6 +675,9 @@ margin-top: 18px;
   .fifth__part {
     display: block;
     display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
   }
   .fifth__part-center {
     display: none;
@@ -856,5 +859,8 @@ margin-top: 18px;
   .forth__img {
   width: 329px;
   height: 293px; 
+  }
+  .six__topic {
+    font-size: 27px;
   }
 }
