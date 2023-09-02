@@ -853,4 +853,8 @@ margin-top: 18px;
   .header {
     flex-direction: column;
   }
+  .forth__img {
+  width: 329px;
+  height: 293px; 
+  }
 }
