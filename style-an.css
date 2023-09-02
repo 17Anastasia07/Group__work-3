@@ -301,10 +301,10 @@ line-height: 48px; /* 150% */
 .third__cards {
   display: flex;
   margin-top: 64px;
-  flex-wrap: wrap;
+ flex-wrap: wrap;
 }
 .third__card-1 {
-  margin-left: 32px;
+  
 }
  .third__card-foto {
   transition: 2s;
@@ -313,6 +313,7 @@ line-height: 48px; /* 150% */
 }
 .third__card-foto:hover {
   transform: scale(1.1);
+ 
 } 
 .third__card-text {
   margin-top: 16px;
@@ -322,6 +323,118 @@ font-size: 16px;
 font-style: italic;
 font-weight: 500;
 line-height: 24px; /* 150% */
+}
+
+.card-sail {
+  position: relative;
+}
+.sail-input {
+  display: none;
+}
+.sail-input[type="checkbox"]:checked ~ .modal-sail {
+  display: block;
+  position: absolute;
+  width: 316px;
+  height:380px;
+  background-color: #44d3ffea;
+  z-index: 20;
+  text-align: center;
+  padding: 60px 50px;
+  border-radius: 12px;
+  animation: sail 0.5s linear 1;
+  top: 0;
+  left: 0;
+}
+.modal-sail {
+  display: none;
+}
+@keyframes sail {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.card-rock {
+  position: relative;
+  margin-left: 32px;
+}
+.rock-input {
+  display: none;
+}
+.rock-input[type="checkbox"]:checked ~ .modal-rock {
+  display: block;
+  position: absolute;
+  width: 316px;
+  height:380px;
+  left: 0;
+  top: 0;
+  background-color: #ffc444ea;
+  z-index: 20;
+  text-align: center;
+  padding: 60px 50px;
+  border-radius: 12px;
+  animation: sail 0.5s linear 1;
+}
+.modal-rock {
+  display: none;
+}
+
+.modal__text {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  line-height: 23px;
+}
+
+.card-sky {
+  position: relative;
+  margin-left: 32px;
+}
+.sky-input {
+  display: none;
+}
+.sky-input[type="checkbox"]:checked ~ .modal-sky {
+  display: block;
+  position: absolute;
+  width: 316px;
+  height:380px;
+  background-color: #c4fbffea;
+  z-index: 20;
+  text-align: center;
+  padding: 60px 50px;
+  border-radius: 12px;
+  animation: sail 0.5s linear 1;
+  left: 0;
+  top: 0;
+}
+.modal-sky {
+  display: none;
+}
+
+.card-forest {
+  position: relative;
+  margin-left: 32px;
+}
+.forest-input {
+  display: none;
+}
+.forest-input[type="checkbox"]:checked ~ .modal-forest {
+  display: block;
+  position: absolute;
+  width: 316px;
+  height:380px;
+  background-color: #beff44ea;
+  z-index: 20;
+  text-align: center;
+  padding: 60px 50px;
+  border-radius: 12px;
+  animation: sail 0.5s linear 1;
+  left: 0;
+  top: 0;
+}
+.modal-forest {
+  display: none;
 }
 
 .center {
@@ -518,13 +631,17 @@ margin-top: 18px;
   .sixth__info {
     display: none;
   }
-  .third__card-1 {
-    justify-content: center;
+  .card-sail {
   margin: 20px auto;
   }
-  .third__card {
-    justify-content: center;
-    margin: 20px auto;
+  .card-sky {
+  margin: 20px auto;
+  }
+  .card-rock {
+  margin: 20px auto;
+  }
+  .card-forest {
+  margin: 20px auto;
   }
   
 }
@@ -613,6 +730,27 @@ margin-top: 18px;
     width: 253px;
     height: 304px;
   }
+  .forest-input[type="checkbox"]:checked ~ .modal-forest {
+    width: 253px;
+    height: 304px;
+  }
+  .sky-input[type="checkbox"]:checked ~ .modal-sky {
+    width: 253px;
+    height: 304px;
+  }
+  .sail-input[type="checkbox"]:checked ~ .modal-sail {
+    width: 253px;
+    height: 304px;
+  }
+  .rock-input[type="checkbox"]:checked ~ .modal-rock {
+    width: 253px;
+    height: 304px;
+  }
+  
+.modal__text {
+  font-size: 10px;
+}
+
   .forth__box {
     flex-direction: column;
     justify-content: center;
@@ -640,12 +778,37 @@ margin-top: 18px;
     width: 190px;
     height:228px;
   }
+  .third__cards {
+    flex-direction: column;
+  }
+  
+  
+  .forest-input[type="checkbox"]:checked ~ .modal-forest {
+    width: 190px;
+    height:228px;
+  }
+  .sky-input[type="checkbox"]:checked ~ .modal-sky {
+    width: 190px;
+    height:228px;
+  }
+  .sail-input[type="checkbox"]:checked ~ .modal-sail {
+    width: 190px;
+    height:228px;
+  }
+  .rock-input[type="checkbox"]:checked ~ .modal-rock {
+    width: 190px;
+    height:228px;
+  }
+  .modal__text {
+    font-size: 6px;
+    line-height: 12px;
+  }
   .six__img {
     width: 190px;
     height:228px;
   }
 }
-
+ 
 @media (max-width: 575px) {
   .footer__image {
     max-width: 450px; 
