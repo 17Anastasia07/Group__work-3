@@ -608,7 +608,11 @@ margin-top: 200px;
   position: absolute;
   right: 0;
   top: 0;
-
+  backdrop-filter: blur(10px);
+  background-color: #fff;
+  height: 380px;
+  padding-left: 5px;
+  
 }
 .sixth__text-1 {
   color: #161414;
@@ -863,4 +867,11 @@ margin-top: 18px;
   .six__topic {
     font-size: 27px;
   }
+}
+@media (max-width: 520px) {
+  .forth__img {
+    width: 219px;
+  height: 195px; 
+  }
+
 }
