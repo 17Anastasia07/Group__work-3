@@ -582,9 +582,7 @@
   }
   
   @media (max-width: 767px) {
-    .header__menuy {
-      display: nonew;
-    }
+    
   }
 
   @media (max-width: 680px) {
@@ -595,10 +593,11 @@
       margin: 0 10px;
       font-size: 10px;
     }
+    
 }
 @media (max-width: 785px) {
     .itemy {
       font-size: 12px;
-      margin: 0 15px;
+      margin: 0 10px;
     }
 }
